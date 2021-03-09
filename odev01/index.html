@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>Find the Cat</title>
+ <link rel="stylesheet" href="style.css"/>
+ <script src="code.js"></script>
+</head>
+<body>
+<h2>Find the Cat</h2>
+<p>In this game you have to find the cat among 3 cards.</p>
+<p>If you cannot find the Cat card in the first choice, you will be given the second choice.</p>
+<img id="img_0" class="card" src="card.png" onclick="game()">
+<img id="img_1" class="card" src="card.png" onclick="game_1()">
+<img id="img_2" class="card" src="card.png" onclick="game_2()">
+<div class="message">
+ <p id="fieldId">You have to click on the card to find the cat card.</p>
+ <p id="successId" style="display: none"></p>
+ <p id="unsuccessId" style="display: none"></p>
+</div>
+</body>
+</html>
