@@ -1,1 +1,3 @@
-# 1030516467_BS436_WebProgramlama
+- Öğrenci Numarası: 1030516467
+- Öğrenci Adı: Fatma Reyyan SARIKAYA
+- Ders Adı: BS436 Web Programlama
